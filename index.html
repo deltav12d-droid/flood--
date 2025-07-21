@@ -2,22 +2,23 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <title>Kerala Flood Monitor</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kerala Flood & Weather Monitor</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 </head>
 <body>
     <header>
-        <h1>🌧️ Kerala Flood-Prone Streets & Live Weather</h1>
+        <h1>🌧️ Kerala Flood & Weather Monitoring System</h1>
     </header>
 
     <div id="weather-info">Loading weather data...</div>
     <div id="map"></div>
+    <div id="alert-info"></div>
 
     <footer>
-        <p>Data via OpenWeatherMap & OpenStreetMap</p>
+        <p>Updated every 1 minute | Powered by OpenWeatherMap & OpenStreetMap</p>
     </footer>
 
     <script src="script.js"></script>
